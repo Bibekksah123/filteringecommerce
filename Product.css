@@ -1,0 +1,48 @@
+.car-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 20rem; */
+  margin-left:10rem;
+  margin-top: 2rem;
+  z-index:2;
+}
+.card{
+  display: flex;
+  margin: 20px;
+  border: 2px solid #ededed;
+  padding:25px;
+  cursor: pointer;
+
+}
+.card img{
+  width:200px;
+  margin-bottom: 1rem;
+}
+.card-title{
+  margin-bottom: 1rem;
+}
+.review{
+  margin-bottom: 1rem;
+  display: flex;
+}
+.rating{
+  color: red;
+}
+.total-review{
+  margin-left: 10px;
+  font-size: 16px;
+
+}
+.card-price{
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+}
+.bg-icon{
+  font-size: 20px;
+}
+.logo{
+  margin-top: 1.3rem;
+  font-size: 50px;
+}
